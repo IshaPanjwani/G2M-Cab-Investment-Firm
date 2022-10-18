@@ -42,7 +42,7 @@ transactionID_data = pd.read_csv(r"G2M Cab Investment Firm\Transaction_ID.csv")
 customer_ID = pd.read_csv(r"G2M Cab Investment Firm\Customer_ID.csv")
 city_data = pd.read_csv(r"G2M Cab Investment Firm\City.csv")
 ```
-## Previewing first few rows
+## Previewing data and datatypes
 ### cab_data.head()
 ```
 	Transaction ID	Date of Travel	Company	City	KM Travelled	Price Charged	Cost of Trip
@@ -169,4 +169,41 @@ Transaction ID	Date of Travel	Company	City	KM Travelled	Price Charged	Cost of Tr
 ### Data Visualization
 - Number of Transactions per month
 #### Pink Cab
-![image](https://user-images.githubusercontent.com/101534066/196304087-fb70dd5e-60c8-4163-9206-99a0342dc2a8.png)
+<img src="https://user-images.githubusercontent.com/101534066/196304087-fb70dd5e-60c8-4163-9206-99a0342dc2a8.png" width="70%" height="60%">
+#### Yellow Cab
+<img src="https://user-images.githubusercontent.com/101534066/196304508-9a12a6cc-f8a3-4d82-b443-c79a2ee66493.png" width="70%" height="60%">
+
+#### Number of Transactions for Pink and Yellow Cab throughout the year
+<img src="https://user-images.githubusercontent.com/101534066/196305469-d8430d2f-e6c1-4a90-9207-6125f13985aa.png" width="70%" height="60%">
+
+#### Pink and Yellow Cab Users overview
+<img src="https://user-images.githubusercontent.com/101534066/196304629-88a252af-bb10-412a-9629-501f8286fece.png" width="40%" height="40%">
+
+#### Users' Preference by demographics
+<img src="https://user-images.githubusercontent.com/101534066/196305565-66da8252-7fc3-4aaa-807b-0fbee92a039c.png" width="50%" height="50%">
+<img src="https://user-images.githubusercontent.com/101534066/196305644-e72ada62-8fde-4f6d-9d7e-72b9e8164269.png" width="50%" height="50%">
+
+#### Users Summary by City
+<img src="https://user-images.githubusercontent.com/101534066/196305730-34cced2a-bab9-4263-91a8-5bd6dfe3b88c.png" width="70%" height="70%">
+
+#### Comparing KM Travelled with price charged for both companies in each city.
+<img src="https://user-images.githubusercontent.com/101534066/196305852-def8c6b3-a24f-41d9-bed5-ed286f96f044.png" width="70%" height="60%">
+<img src="https://user-images.githubusercontent.com/101534066/196305930-78bb7d14-970c-4485-9eda-4c04c2de71e3.png" width="70%" height="60%">
+
+#### Comparing average profit for both companies by city
+<img src="https://user-images.githubusercontent.com/101534066/196306139-42378f00-a577-44cb-bb79-0d4316479377.png" width="70%" height="70%">
+
+#### Average Profit 
+<img src="https://user-images.githubusercontent.com/101534066/196306279-f0b0e28b-b95e-4180-b8dc-49cf255a7def.png" width="40%" height="60%">
+<img src="https://user-images.githubusercontent.com/101534066/196306332-6dd56a03-9d7c-49c0-b5aa-f854b29239a9.png" width="40%" height="60%">
+
+### Recommendations
+- We have evaluated both the cab companies on following factors and have concluded that Yellow Cab Company is better for investment than Pink Cab Company. 
+- Number of transactions: Both the companies have higher number of transactions in the months of October, November, and December. But as observed Yellow Cab has 3x more customers throughout the year. 
+- Market Share: Almost 75% of the cab users prefer Yellow Cab Company over Pink Cab Company. 
+- Age wise Reach: Yellow cab has higher customers in all age groups and the most popular among middle aged group. 
+- Gender wise Reach: Yellow cab has significantly higher number of both male and female users. Although male cab service users are 15% higher than female cab service users. 
+- Average Price charged by KM: Yellow cab average charge per KM is almost 3 times the average charge of Pink cab. 
+- Average Profit: Yellow Cab company has approximately 2.5 times higher average profit than Pink Cab company. 
+
+**Based on the data analysed, Yellow Cab company is recommended to XYZ company for investment.**
